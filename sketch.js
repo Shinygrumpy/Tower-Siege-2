@@ -131,9 +131,9 @@ async function getBackgroundImg(){
     var hour = DT.slice(11,13);
 
     if(hour >= 06 && hour <= 19){
-        bg = "sprites/bg.png"
+        bg = "bg.png"
     }else{
-        bg = "sprites/bg2.jpg" 
+        bg = "bg2.jpg" 
     }
 
     backgroundImg = loadImage(bg);
